@@ -19,7 +19,7 @@ void hanoi(int n,char one,char two, char three)
 int main()
 {
     int n;
-    printf("input your number");
+    printf("Please input your number:");
     scanf("%d",&n);
     hanoi(n,'A','B','C');
     return 0;
